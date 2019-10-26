@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Piedra, papel o tijeras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Piedra, Papel o Tijeras</h1>    
+        </header>
+
+            <div class="area">
+                <div class="jugador">
+                    <h2 class="titulo">TU</h2>
+                    <a href="#" onclick="game(piedra)"><i class="far fa-hand-rock"></i></a><br>
+                    <a href="#" onclick="game(papel)"><i class="far fa-hand-paper"></i></a><br>
+                    <a href="#" onclick="game(tijeras)"><i class="far fa-hand-scissors"></i></a>
+                </div>
+
+                <div class="jugada">
+                    <h3>Jugada</h3>
+                    <div id="jugada"></div>
+                </div>
+                
+                <div class="stats">
+                    <div class="texto">
+                        <p id="cuadro"></p>
+                    </div>
+                    <div class="texto">
+                        <p id="marca"></p>
+                    </div>
+                </div>   
+
+                <div class="jugada">
+                    <h3>oponente</h3>
+                    <div id="jugadapc"></div>
+                </div>
+                
+                <div class="pc">
+                    <h2 class="titulo">PC</h2>
+                    <p><i class="far fa-hand-rock manos"></i></p>
+                    <p><i class="far fa-hand-paper manos"></i></p>
+                    <p><i class="far fa-hand-scissors manos"></i></p>
+                </div>
+                
+            </div>
+
+        <footer>
+            <p>Creado por Luis Enrique Romero. 2019</p>
+        </footer>
+    </div>    
+    <script src="script.js"></script>
+    
+</body>
+</html>

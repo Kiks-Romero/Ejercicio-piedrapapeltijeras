@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: rgb(36, 155, 149);
+    text-align: center;
+}
+
+.contenedor{
+    width: 1000px;
+    background: #ccc;
+    margin: 20px auto;
+}
+
+header{
+    background: #30323d;
+    color: white;
+    padding: 20px;
+}
+
+a{
+    background: blue;
+    color: lavender;
+    font-size: 40px;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+a:hover{
+    background: green;
+}
+a:active{
+    background: red;
+    color: white;
+}
+
+.manos{
+    background: blue;
+    color: lavender;
+    font-size: 40px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.texto{
+    background: rgb(7, 74, 150);
+    padding: 20px;
+    margin: 20px;
+    height: 110px;
+    font-size: 40px;
+    color: lavender;
+}
+
+footer{
+    background: #30323d;
+    color:white;
+    font-size: 20px;
+    padding: 20px;
+    clear: both;
+}
+
+.jugador{
+    width: 20%;
+    float: left;
+}
+
+.stats{
+    width: 20%;
+    float: left;
+    background: green;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+.pc{
+    width: 20%;
+    float: left;
+}
+
+.titulo{
+    text-align: center;
+    color:black;
+}
+
+.jugada{
+    width: 20%;
+    float: left;
+    background: #30323d;
+    color: white;
+    display: block;
+    margin-top: 100px;
+    border-radius: 60px;
+    height: 140px;
+}
+
+.seleccion{
+    border-radius: 50%;
+}
